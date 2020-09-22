@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="avertra.flatpiechart.FlatPieChart" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Flat Pie Chart</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            
+            <property key="percentage" type="expression" defaultValue="'90.9'">
+                <caption>Percentage</caption>
+                <description></description>
+                <returnType type="String" />
+            </property>
+            <property key="subText" type="expression" defaultValue="'Of last period'">
+                <caption>Sub Text</caption>
+                <description></description>
+                <returnType type="String" />
+            </property>
+            <property key="activeBarColor" type="expression" defaultValue="'#0088FE'">
+                <caption>activeBarColor</caption>
+                <description></description>
+                <returnType type="String" />
+            </property>
+            <property key="inActiveBarColor" type="expression" defaultValue="'#EEEEEE'">
+                <caption>inActiveBarColor</caption>
+                <description></description>
+                <returnType type="String" />
+            </property>
+            <property key="mainTextColor" type="expression" defaultValue="'#000000'">
+                <caption>mainTextColor</caption>
+                <description></description>
+                <returnType type="String" />
+            </property>
+            <property key="subTextColor" type="expression" defaultValue="'#CCCCCC'">
+                <caption>subTextColor</caption>
+                <description></description>
+                <returnType type="String" />
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
